@@ -1,0 +1,37 @@
+.portada    {
+
+    background-image: url("../../imagenes/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1  {
+        font-size: 5rem;
+        color: white;
+        text-shadow: 0px 0px 2px white;
+        text-align: center;
+        animation: cambio-color 2s infinite;
+    }
+
+    @keyframes cambio-color {
+        0% { color: white; text-shadow: 0px 0px 2px white; }
+        50% { color: rgb(255, 255, 255); text-shadow: 0px 0px 12px white; }
+        100% { color: white; text-shadow: 0px 0px 2px white; }
+    }
+    
+
+    img     {
+        width: 70px;
+        position: absolute;
+        bottom: 20px;
+        
+    }
+
+
+        
+    
+}

@@ -1,0 +1,79 @@
+@import"../base/variables";
+
+.top-container  {
+
+    display: flex;
+    justify-content: center;
+    background-color: $bg-light;
+    
+  
+
+    .top-destination    {
+        background-color: rgb(255, 255, 255);
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-content: space-between;
+        padding: 2rem 0 0 0;
+        margin: 40px 0px 0px 0px;
+        box-shadow: 0px 0px 5px rgb(207, 207, 207);
+        max-width: 1800px;
+        
+      
+        .image  {
+            width: 100%;
+            height: 100%;
+            background-image: url("https://aws.traveler.es/prod/designs/v1/assets/2000x1333/163867.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .top-left   {
+            width: 45%;
+            height: 30rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            a   {
+                width: 30%;
+                height: 10%;
+                border: none;
+                color: #1f4851 ;
+                font-weight: bold;
+                font-size: 1rem;
+                border-radius: 0.2rem;
+                box-shadow: 0px 0px 10px rgb(0, 0, 0);
+                position: relative;
+                bottom: 70px;
+                background-color: #ffffff;
+                text-decoration: none;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .top-right  {
+            color: #16262a;
+            width: 45%;
+            
+            .description    {
+                font-size: 1.4rem;
+                line-height: 3rem;
+                text-align: justify;
+            }
+
+            h2  {
+                padding: 20px 0 0 0;
+                text-align: center;
+                text-decoration: underline;
+            }
+            
+            h3  {
+                text-align: center;
+            }
+        }
+    }
+}

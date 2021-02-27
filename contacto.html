@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Conocé la Patagonia - contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <img src="imagenes/logo.svg" alt="" class="nav-logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Volver al Home</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="section-contacto">
+        <form action="" class="formulario">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <div class="mb-3">
+                    <label for="full-name" class="form-label">Nombre completo</label>
+                    <input type="full-name" class="form-control" id="full-name" placeholder="Juan Pérez">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Teléfono</label>
+                    <input type="phone" class="form-control" id="phone">
+                  </div>
+        
+            </fieldset>
+            
+            
+              <fieldset>
+                <legend class="fieldset-2">Características de su viaje</legend>
+                <div class="d-flex justify-content-between align-items-center">
+                    <select class="form-select w-50" aria-label="Default select example">
+                        <option selected>Seleccioná tu destino</option>
+                        <option value="eb">El Bolsón</option>
+                        <option value="ec">El Calafate</option>
+                        <option value="pm">Puerto Madryd</option>
+                        <option value="br">San Carlos De Bariloche</option>
+                        <option value="sm">San Martín de los Andes</option>
+                        <option value="va">Villa la Angostura</option>
+                      </select>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Alojamiento</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Áereo</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                        <label class="form-check-label" for="inlineCheckbox3">Excursiones</label>
+                      </div>
+                </div>
+              </fieldset>
+
+              <div class="col-12">
+                <button type="submit" data-toggle="modal" class=" my-4 btn btn-primary">Enviar</button>
+              </div>
+
+        </form> 
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

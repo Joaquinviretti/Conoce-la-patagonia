@@ -1,0 +1,19 @@
+@import"../base/variables";
+header {
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    .navbar {
+        background-color: $bg-color;
+        color: $text-color;
+
+        .nav-logo   {
+            height: 35px;
+        }
+    }
+
+
+}

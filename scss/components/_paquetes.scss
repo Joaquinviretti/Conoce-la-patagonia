@@ -1,0 +1,64 @@
+@import"../base/variables";
+
+.paquetes   {
+    padding: 2rem 2rem;
+    background-color:$bg-light;
+    
+    .title  {
+        margin-bottom: 50px;
+    }
+
+    .boxes-container    {
+      
+        .boxes  {
+            display: flex;
+            justify-content: space-around; 
+         
+        
+           
+            .box    {
+                width: 28%;
+                height: 20rem;
+                color: #ffffff;
+                border-radius: 15px;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                box-shadow: 0px 0px 10px rgb(143, 143, 143);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0px 20px;
+                line-height: 40px;
+                text-shadow: 0px 0px 15px black;
+                letter-spacing: 5px;
+                opacity: 0.7;
+                &:hover {
+                    opacity: 1;
+                    font-size: 2rem; 
+                } 
+            }
+    
+            .alojamiento    {
+                background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/61/4c/c5/apart-hotel-del-arroyo.jpg");
+                @extend %bg-paquete;
+            }
+            
+            .aereo  {
+                background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202101/MIT-Aircraft-Nox-01_0.jpg?itok=aWvMMKa6");
+                @extend %bg-paquete;
+                
+            }
+            
+            .excursiones    {
+                background-image: url("https://www.detrekking.co/wp-content/uploads/2020/03/toomas-tartes-Yizrl9N_eDA-unsplash-1024x683.jpg");
+                @extend %bg-paquete;
+            }
+        }
+    }
+
+
+    
+
+}

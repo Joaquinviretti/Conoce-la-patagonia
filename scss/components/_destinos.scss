@@ -1,0 +1,128 @@
+@import"../base/variables";
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.destinos   {
+    background-color: $bg-light;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .section-destinos   {
+        margin: 4rem 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        scroll-behavior: auto;
+        .destino-container  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 2%;
+            .angostura  {
+                background-image: url(../imagenes/destinos/langostura.jpg);
+            }
+            .bariloche  {
+                background-image: url(../imagenes/destinos/bariloche.jpg);
+            }
+            .sma    {
+                background-image: url(../imagenes/destinos/sma.jpg);
+            }
+            .bolson     {
+                background-image: url(../imagenes/destinos/bolson.jpg);
+            }
+            .calafate   {
+                background-image: url(../imagenes/destinos/calafate.jpg);
+            }
+            .madryn     {
+                background-image: url(../imagenes/destinos/madryn.jpg);
+            }
+            .photo-destino    {
+                width: 380px;
+                height: 17rem;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border:10px solid white;
+                box-shadow: 0px 0px 5px rgb(105, 105, 105);
+            }
+            .text-destino   {
+                color: white;
+                position: relative;
+                bottom: 180px;
+                text-transform: uppercase;
+                text-align: center;
+
+                .btn    {
+                    background-color: $button;
+                    border-color: $bg-light;
+                    color: $text-color;
+                }
+                
+            }
+        }
+    }
+
+    .modal-dialog  {
+        max-width:max-content;
+        margin:20px 80px 0px 80px;
+        .modal-body {
+            padding: 2rem 2rem 2rem 4rem;
+        }
+        .actividades    {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            .card-actividad  {
+                width: 250px;
+                height: 260px;
+                .foto-actividad {
+                    width: 100%;
+                    height: 220px;
+                    background-color: black;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .arrayanes  {
+                    background-image: url("../../imagenes/actividades/arrayanes.jpg");
+                }
+
+                .mesidor    {
+                    background-image: url("../../imagenes/actividades/mesidor.jpg");
+                }
+
+                .artesanos  {
+                    background-image: url("../../imagenes/actividades/artesanos.jpg");
+                }
+
+                .campanario     {
+                    background-image: url("../../imagenes/actividades/campanario.jpg");
+                }
+
+                .llao   {
+                    background-image: url("/imagenes/actividades/llao.jpg");
+                }
+
+                .civico {
+                    background-image: url("/imagenes/actividades/civico.jpg");
+                }
+
+                .texto-actividad    {
+                    background-color: $bg-color;
+                    height: 60px;
+                    width: 100%;
+                    color: white;
+                    font-size: 22px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width: 700px)  {
+
+    
+/*header*/
+
+.portada    {
+    h1  {
+        font-size:50px;
+    }
+}
+
+
+/* top-destination */
+
+
+.top-destination    {
+    flex-direction: column-reverse;
+    margin-top: 10px!important;
+    .top-left   {
+        width: 100%!important;
+        height: 15rem!important;
+        a   {
+            width: 150px!important;
+            height: 50px!important;
+        }
+    }
+    .top-right  {
+        width: 100%!important;
+        padding: 1rem;
+        .description   {
+            font-size: 1rem!important;
+            line-height: 2rem!important;
+        }
+    }
+}
+
+
+/*Paquetes*/
+
+.boxes  {
+    flex-direction: column;
+    .box{
+        width: 100%!important;
+        margin-top: 50px;
+        
+    }
+
+    .alojamiento    {
+        margin: 0;
+    }
+}
+
+/* destinos*/
+
+.destinos   {
+    .section-destinos   {
+        .destino-container  {
+            width: 100%!important;
+            .photo-destino  {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+/*conocenos*/
+
+
+
+/*footer*/
+.footer  {
+    justify-content: space-around;
+}
+
+.footer-contact p   {
+    display: none;
+}
+
+.footer-contact     {
+    width: 40%;
+}
+
+
+}
+

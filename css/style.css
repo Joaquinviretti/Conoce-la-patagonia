@@ -1,0 +1,442 @@
+/* base */
+.paquetes .boxes-container .boxes .excursiones, .paquetes .boxes-container .boxes .aereo, .paquetes .boxes-container .boxes .alojamiento {
+  background-position: center;
+  background-size: cover;
+}
+
+/* components */
+.portada {
+  background-image: url("../../imagenes/portada.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portada h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0px 0px 2px white;
+  text-align: center;
+  animation: cambio-color 2s infinite;
+}
+@keyframes cambio-color {
+  0% {
+    color: white;
+    text-shadow: 0px 0px 2px white;
+  }
+  50% {
+    color: white;
+    text-shadow: 0px 0px 12px white;
+  }
+  100% {
+    color: white;
+    text-shadow: 0px 0px 2px white;
+  }
+}
+.portada img {
+  width: 70px;
+  position: absolute;
+  bottom: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+header .navbar {
+  background-color: #1f4851;
+  color: white;
+}
+header .navbar .nav-logo {
+  height: 35px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  background-color: #EEF3F4;
+}
+.top-container .top-destination {
+  background-color: white;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 2rem 0 0 0;
+  margin: 40px 0px 0px 0px;
+  box-shadow: 0px 0px 5px #cfcfcf;
+  max-width: 1800px;
+}
+.top-container .top-destination .image {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://aws.traveler.es/prod/designs/v1/assets/2000x1333/163867.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-container .top-destination .top-left {
+  width: 45%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-container .top-destination .top-left a {
+  width: 30%;
+  height: 10%;
+  border: none;
+  color: #1f4851;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 10px black;
+  position: relative;
+  bottom: 70px;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-container .top-destination .top-right {
+  color: #16262a;
+  width: 45%;
+}
+.top-container .top-destination .top-right .description {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-align: justify;
+}
+.top-container .top-destination .top-right h2 {
+  padding: 20px 0 0 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.top-container .top-destination .top-right h3 {
+  text-align: center;
+}
+
+.paquetes {
+  padding: 2rem 2rem;
+  background-color: #EEF3F4;
+}
+.paquetes .title {
+  margin-bottom: 50px;
+}
+.paquetes .boxes-container .boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.paquetes .boxes-container .boxes .box {
+  width: 28%;
+  height: 20rem;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 0px 10px #8f8f8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  line-height: 40px;
+  text-shadow: 0px 0px 15px black;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+.paquetes .boxes-container .boxes .box:hover {
+  opacity: 1;
+  font-size: 2rem;
+}
+.paquetes .boxes-container .boxes .alojamiento {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0f/61/4c/c5/apart-hotel-del-arroyo.jpg");
+}
+.paquetes .boxes-container .boxes .aereo {
+  background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202101/MIT-Aircraft-Nox-01_0.jpg?itok=aWvMMKa6");
+}
+.paquetes .boxes-container .boxes .excursiones {
+  background-image: url("https://www.detrekking.co/wp-content/uploads/2020/03/toomas-tartes-Yizrl9N_eDA-unsplash-1024x683.jpg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.destinos {
+  background-color: #EEF3F4;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.destinos .section-destinos {
+  margin: 4rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  scroll-behavior: auto;
+}
+.destinos .section-destinos .destino-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2%;
+}
+.destinos .section-destinos .destino-container .angostura {
+  background-image: url(../imagenes/destinos/langostura.jpg);
+}
+.destinos .section-destinos .destino-container .bariloche {
+  background-image: url(../imagenes/destinos/bariloche.jpg);
+}
+.destinos .section-destinos .destino-container .sma {
+  background-image: url(../imagenes/destinos/sma.jpg);
+}
+.destinos .section-destinos .destino-container .bolson {
+  background-image: url(../imagenes/destinos/bolson.jpg);
+}
+.destinos .section-destinos .destino-container .calafate {
+  background-image: url(../imagenes/destinos/calafate.jpg);
+}
+.destinos .section-destinos .destino-container .madryn {
+  background-image: url(../imagenes/destinos/madryn.jpg);
+}
+.destinos .section-destinos .destino-container .photo-destino {
+  width: 380px;
+  height: 17rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid white;
+  box-shadow: 0px 0px 5px dimgray;
+}
+.destinos .section-destinos .destino-container .text-destino {
+  color: white;
+  position: relative;
+  bottom: 180px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.destinos .section-destinos .destino-container .text-destino .btn {
+  background-color: #055666;
+  border-color: #EEF3F4;
+  color: white;
+}
+.destinos .modal-dialog {
+  max-width: max-content;
+  margin: 20px 80px 0px 80px;
+}
+.destinos .modal-dialog .modal-body {
+  padding: 2rem 2rem 2rem 4rem;
+}
+.destinos .modal-dialog .actividades {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.destinos .modal-dialog .actividades .card-actividad {
+  width: 250px;
+  height: 260px;
+}
+.destinos .modal-dialog .actividades .card-actividad .foto-actividad {
+  width: 100%;
+  height: 220px;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+.destinos .modal-dialog .actividades .card-actividad .arrayanes {
+  background-image: url("../../imagenes/actividades/arrayanes.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .mesidor {
+  background-image: url("../../imagenes/actividades/mesidor.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .artesanos {
+  background-image: url("../../imagenes/actividades/artesanos.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .campanario {
+  background-image: url("../../imagenes/actividades/campanario.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .llao {
+  background-image: url("/imagenes/actividades/llao.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .civico {
+  background-image: url("/imagenes/actividades/civico.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .texto-actividad {
+  background-color: #1f4851;
+  height: 60px;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conocenos {
+  background-color: #EEF3F4;
+  padding: 0 2rem;
+}
+.conocenos .conocenos-photos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.conocenos .conocenos-photos .photo {
+  border-radius: 200px;
+  width: 15%;
+  box-shadow: 0px 0px 14px #7a7a7a;
+  margin: 0px 4%;
+}
+.conocenos .conocenos-text {
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+  font-style: italic;
+}
+.conocenos:hover .ricardo {
+  transform: translateX(100px);
+}
+.conocenos:hover .enrique {
+  transform: translateX(-100px);
+}
+.conocenos .ricardo, .conocenos .enrique {
+  transition: all 2s ease-in-out;
+}
+
+#contacto {
+  background-color: #EEF3F4;
+  padding: 3rem 2rem;
+}
+#contacto h2 {
+  margin-bottom: 2rem;
+}
+#contacto .contacto-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#contacto .boton-formulario {
+  background-color: #1f4851;
+  width: 25%;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  color: #e7e7e7;
+  margin: 0 0 2rem 0;
+}
+
+.footer {
+  background-image: linear-gradient(#1F4851, #2d6572);
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-contact {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  width: 15%;
+}
+.footer .footer-contact p {
+  padding-right: 1rem;
+}
+.footer .footer-contact .footer-logo {
+  width: 20px;
+}
+
+.formulario {
+  margin: 2%;
+  background-color: #e7e7e7;
+  border-radius: 0.5rem;
+  padding: 2%;
+  border: 1px solid #919191;
+}
+.formulario legend {
+  margin-bottom: 2%;
+}
+.formulario .fieldset-2 {
+  margin-top: 4%;
+}
+
+@media only screen and (max-width: 700px) {
+  /*header*/
+  .portada h1 {
+    font-size: 50px;
+  }
+
+  /* top-destination */
+  .top-destination {
+    flex-direction: column-reverse;
+    margin-top: 10px !important;
+  }
+  .top-destination .top-left {
+    width: 100% !important;
+    height: 15rem !important;
+  }
+  .top-destination .top-left a {
+    width: 150px !important;
+    height: 50px !important;
+  }
+  .top-destination .top-right {
+    width: 100% !important;
+    padding: 1rem;
+  }
+  .top-destination .top-right .description {
+    font-size: 1rem !important;
+    line-height: 2rem !important;
+  }
+
+  /*Paquetes*/
+  .boxes {
+    flex-direction: column;
+  }
+  .boxes .box {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .boxes .alojamiento {
+    margin: 0;
+  }
+
+  /* destinos*/
+  .destinos .section-destinos .destino-container {
+    width: 100% !important;
+  }
+  .destinos .section-destinos .destino-container .photo-destino {
+    width: 100%;
+  }
+
+  /*conocenos*/
+  /*footer*/
+  .footer {
+    justify-content: space-around;
+  }
+
+  .footer-contact p {
+    display: none;
+  }
+
+  .footer-contact {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
