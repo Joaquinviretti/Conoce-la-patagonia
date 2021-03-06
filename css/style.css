@@ -6,7 +6,7 @@
 
 /* components */
 .portada {
-  background-image: url("../../imagenes/portada.jpg");
+  background-image: url("../imagenes/portada.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -267,10 +267,46 @@ header .navbar .nav-logo {
   background-image: url("../../imagenes/actividades/campanario.jpg");
 }
 .destinos .modal-dialog .actividades .card-actividad .llao {
-  background-image: url("/imagenes/actividades/llao.jpg");
+  background-image: url("../../imagenes/actividades/llao.jpg");
 }
 .destinos .modal-dialog .actividades .card-actividad .civico {
-  background-image: url("/imagenes/actividades/civico.jpg");
+  background-image: url("../../imagenes/actividades/civico.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .bandurrias {
+  background-image: url("../../imagenes/actividades/bandurrias.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .quila {
+  background-image: url("../../imagenes/actividades/quila.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .lacar {
+  background-image: url("../../imagenes/actividades/lacar.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .azul {
+  background-image: url("../../imagenes/actividades/azul.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .piltri {
+  background-image: url("../../imagenes/actividades/piltri.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .glaciar {
+  background-image: url("../../imagenes/actividades/glaciar.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .perito {
+  background-image: url("../../imagenes/actividades/perito.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .argentino {
+  background-image: url("../../imagenes/actividades/argentino.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .bar {
+  background-image: url("../../imagenes/actividades/bar.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .valdes {
+  background-image: url("../../imagenes/actividades/valdes.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .gales {
+  background-image: url("../../imagenes/actividades/gales.jpg");
+}
+.destinos .modal-dialog .actividades .card-actividad .loma {
+  background-image: url("../../imagenes/actividades/loma.jpg");
 }
 .destinos .modal-dialog .actividades .card-actividad .texto-actividad {
   background-color: #1f4851;
@@ -385,7 +421,7 @@ header .navbar .nav-logo {
   /* top-destination */
   .top-destination {
     flex-direction: column-reverse;
-    margin-top: 10px !important;
+    margin-top: 20px !important;
   }
   .top-destination .top-left {
     width: 100% !important;
