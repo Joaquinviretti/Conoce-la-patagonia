@@ -70,11 +70,50 @@
 
 /*conocenos*/
 
+.conocenos  {
+
+    .conocenos-text     {
+        font-size: 1.3rem;
+        margin: 0;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .conocenos-photos   {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .photo  {
+            width: 80%;
+            margin: 20px;
+        }
+    }
+
+    &:hover .ricardo   {
+        transform: none;
+    }
+    
+    &:hover .enrique   {
+        transform: none;
+    }
+    
+    .ricardo,.enrique   {
+        transition: none;
+    }
+
+   
+   
+}
 
 
 /*footer*/
 .footer  {
     justify-content: space-around;
+
+    .logos-footer   {
+       width: 30%;
+    }
+
 }
 
 .footer-contact p   {
@@ -83,6 +122,24 @@
 
 .footer-contact     {
     width: 40%;
+    flex-direction: row;
+}
+
+/*formulario*/
+
+.section-contacto   {
+    .formulario     {
+        .datos    {
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            .tipoViaje  {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 
