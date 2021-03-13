@@ -64,6 +64,27 @@
             }
         }
     }
+
+    .modal-dialog  {
+        margin: 1rem;
+        .modal-body   {
+            padding: 5px;
+            .actividades  {
+                .card-actividad {
+                    .texto-actividad {
+                        font-size: 1rem;
+                        padding: 5px;
+                        text-align: center;
+                       
+                        p {
+                            margin-bottom: 0;
+                        }  
+                        
+                    }
+                }
+            }
+        }
+    }
 }
 
 

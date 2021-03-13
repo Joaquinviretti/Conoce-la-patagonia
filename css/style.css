@@ -487,6 +487,20 @@ header .navbar .nav-logo {
   .destinos .section-destinos .destino-container .photo-destino {
     width: 100%;
   }
+  .destinos .modal-dialog {
+    margin: 1rem;
+  }
+  .destinos .modal-dialog .modal-body {
+    padding: 5px;
+  }
+  .destinos .modal-dialog .modal-body .actividades .card-actividad .texto-actividad {
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+  }
+  .destinos .modal-dialog .modal-body .actividades .card-actividad .texto-actividad p {
+    margin-bottom: 0;
+  }
 
   /*conocenos*/
   .conocenos .conocenos-text {
