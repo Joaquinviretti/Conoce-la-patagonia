@@ -1,1 +1,2 @@
-Proyecto Final Coder House
+# conoce la Patagonia
+Final project of the WEB DEVELOPMENT course at Coder House. 
